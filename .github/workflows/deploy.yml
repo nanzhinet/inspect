@@ -26,7 +26,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - run: pnpm exec tsx ./scripts/updateVersion.ts
-      - run: pnpm run build:mirror
+      - run: pnpm run build
 
       - uses: cloudflare/wrangler-action@v3
         with:
