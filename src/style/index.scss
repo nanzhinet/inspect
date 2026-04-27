@@ -1,0 +1,14 @@
+@use './var.scss';
+@use './html-reset.scss';
+@use './atom.scss';
+
+html {
+  width: var(--win-w);
+  height: var(--win-h);
+}
+
+.page-size,
+[page-size] {
+  width: var(--gkd-w);
+  height: var(--gkd-h);
+}
